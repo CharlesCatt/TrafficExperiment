@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Sun Oct 25 04:36:20 2020 by Eclipse SUMO Version 1.6.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="sumo_config/corridor.net.xml"/>
+        <route-files value="sumo_config/corridor.rou.xml"/>
+        <additional-files value="sumo_config/corridor.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="tripinfo.xml"/>
+    </output>
+
+    <time>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <time-to-teleport value="1000"/>
+    </processing>
+
+    <traci_server>
+        <remote-port value="63867"/>
+    </traci_server>
+
+    <gui_only>
+        <start value="true"/>
+        <tracker-interval value="1"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="30.00" id="WC_mainNorth1_0_W" nVehContrib="6" flow="720.00" occupancy="8.90" speed="11.26" harmonicMeanSpeed="11.23" length="5.00" nVehEntered="6"/>
+    <interval begin="30.00" end="60.00" id="WC_mainNorth1_0_W" nVehContrib="5" flow="600.00" occupancy="30.17" speed="8.66" harmonicMeanSpeed="2.86" length="5.00" nVehEntered="6"/>
+    <interval begin="60.00" end="90.00" id="WC_mainNorth1_0_W" nVehContrib="4" flow="480.00" occupancy="17.17" speed="12.15" harmonicMeanSpeed="12.13" length="5.00" nVehEntered="5"/>
+    <interval begin="90.00" end="120.00" id="WC_mainNorth1_0_W" nVehContrib="5" flow="600.00" occupancy="59.39" speed="6.81" harmonicMeanSpeed="1.89" length="5.00" nVehEntered="5"/>
+    <interval begin="120.00" end="150.00" id="WC_mainNorth1_0_W" nVehContrib="6" flow="720.00" occupancy="62.60" speed="7.30" harmonicMeanSpeed="1.12" length="5.00" nVehEntered="5"/>
+    <interval begin="150.00" end="180.00" id="WC_mainNorth1_0_W" nVehContrib="1" flow="120.00" occupancy="71.70" speed="11.84" harmonicMeanSpeed="11.84" length="5.00" nVehEntered="2"/>
+    <interval begin="180.00" end="210.00" id="WC_mainNorth1_0_W" nVehContrib="8" flow="960.00" occupancy="44.38" speed="7.93" harmonicMeanSpeed="1.55" length="5.00" nVehEntered="8"/>
+    <interval begin="210.00" end="240.00" id="WC_mainNorth1_0_W" nVehContrib="2" flow="240.00" occupancy="87.66" speed="2.79" harmonicMeanSpeed="0.29" length="5.00" nVehEntered="2"/>
+    <interval begin="240.00" end="270.00" id="WC_mainNorth1_0_W" nVehContrib="2" flow="240.00" occupancy="86.79" speed="4.76" harmonicMeanSpeed="4.75" length="5.00" nVehEntered="2"/>
+    <interval begin="270.00" end="300.00" id="WC_mainNorth1_0_W" nVehContrib="7" flow="840.00" occupancy="51.63" speed="3.97" harmonicMeanSpeed="1.05" length="5.00" nVehEntered="7"/>
+    <interval begin="300.00" end="330.00" id="WC_mainNorth1_0_W" nVehContrib="2" flow="240.00" occupancy="87.33" speed="2.82" harmonicMeanSpeed="0.31" length="5.00" nVehEntered="1"/>
+    <interval begin="330.00" end="360.00" id="WC_mainNorth1_0_W" nVehContrib="3" flow="360.00" occupancy="80.46" speed="8.78" harmonicMeanSpeed="8.76" length="5.00" nVehEntered="4"/>
+    <interval begin="360.00" end="390.00" id="WC_mainNorth1_0_W" nVehContrib="1" flow="120.00" occupancy="1.53" speed="0.22" harmonicMeanSpeed="0.22" length="5.00" nVehEntered="0"/>
+    <interval begin="390.00" end="420.00" id="WC_mainNorth1_0_W" nVehContrib="3" flow="360.00" occupancy="6.35" speed="7.89" harmonicMeanSpeed="7.87" length="5.00" nVehEntered="3"/>
+    <interval begin="420.00" end="450.00" id="WC_mainNorth1_0_W" nVehContrib="1" flow="120.00" occupancy="79.58" speed="12.29" harmonicMeanSpeed="12.29" length="5.00" nVehEntered="2"/>
+</detector>

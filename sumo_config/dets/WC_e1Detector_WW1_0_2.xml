@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Sun Oct 25 04:36:20 2020 by Eclipse SUMO Version 1.6.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="sumo_config/corridor.net.xml"/>
+        <route-files value="sumo_config/corridor.rou.xml"/>
+        <additional-files value="sumo_config/corridor.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="tripinfo.xml"/>
+    </output>
+
+    <time>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <time-to-teleport value="1000"/>
+    </processing>
+
+    <traci_server>
+        <remote-port value="63867"/>
+    </traci_server>
+
+    <gui_only>
+        <start value="true"/>
+        <tracker-interval value="1"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="30.00" id="WC_WW1_0_S" nVehContrib="0" flow="0.00" occupancy="10.46" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="1"/>
+    <interval begin="30.00" end="60.00" id="WC_WW1_0_S" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="60.00" end="90.00" id="WC_WW1_0_S" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="90.00" end="120.00" id="WC_WW1_0_S" nVehContrib="1" flow="120.00" occupancy="95.36" speed="0.05" harmonicMeanSpeed="0.05" length="5.00" nVehEntered="0"/>
+    <interval begin="120.00" end="150.00" id="WC_WW1_0_S" nVehContrib="1" flow="120.00" occupancy="91.75" speed="0.31" harmonicMeanSpeed="0.31" length="5.00" nVehEntered="2"/>
+    <interval begin="150.00" end="180.00" id="WC_WW1_0_S" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="180.00" end="210.00" id="WC_WW1_0_S" nVehContrib="1" flow="120.00" occupancy="93.80" speed="0.07" harmonicMeanSpeed="0.07" length="5.00" nVehEntered="0"/>
+    <interval begin="210.00" end="240.00" id="WC_WW1_0_S" nVehContrib="4" flow="480.00" occupancy="74.74" speed="5.08" harmonicMeanSpeed="3.06" length="5.00" nVehEntered="5"/>
+    <interval begin="240.00" end="270.00" id="WC_WW1_0_S" nVehContrib="4" flow="480.00" occupancy="72.99" speed="2.96" harmonicMeanSpeed="0.54" length="5.00" nVehEntered="4"/>
+    <interval begin="270.00" end="300.00" id="WC_WW1_0_S" nVehContrib="1" flow="120.00" occupancy="94.60" speed="0.17" harmonicMeanSpeed="0.17" length="5.00" nVehEntered="0"/>
+    <interval begin="300.00" end="330.00" id="WC_WW1_0_S" nVehContrib="4" flow="480.00" occupancy="74.29" speed="4.56" harmonicMeanSpeed="3.58" length="5.00" nVehEntered="5"/>
+    <interval begin="330.00" end="360.00" id="WC_WW1_0_S" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="360.00" end="390.00" id="WC_WW1_0_S" nVehContrib="1" flow="120.00" occupancy="94.51" speed="0.07" harmonicMeanSpeed="0.07" length="5.00" nVehEntered="1"/>
+    <interval begin="390.00" end="420.00" id="WC_WW1_0_S" nVehContrib="3" flow="360.00" occupancy="80.01" speed="4.54" harmonicMeanSpeed="1.87" length="5.00" nVehEntered="3"/>
+    <interval begin="420.00" end="450.00" id="WC_WW1_0_S" nVehContrib="1" flow="120.00" occupancy="92.91" speed="0.17" harmonicMeanSpeed="0.17" length="5.00" nVehEntered="1"/>
+</detector>
