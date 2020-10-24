@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue  1 Sep 10:43:25 2020 by Eclipse SUMO netedit Version 1.6.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/Users/charlie/a1726075/2020/s2/AML/sumoStuff/corridor/corridor.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/Users/charlie/a1726075/2020/s2/AML/sumoStuff/corridor/corridor.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="/Users/charlie/a1726075/2020/s2/AML/sumoStuff/corridor/corridor.add.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <e1Detector id="CC_CE_0_N" lane="CE_0" pos="36.20" freq="30.00" file="dets/CC_e1Detector_CE_0_10.xml"/>
+    <e1Detector id="CC_mainNorth2_0_W" lane="mainNorth2_0" pos="33.19" freq="30.00" file="dets/CC_e1Detector_mainNorth2_0_6.xml"/>
+    <e1Detector id="CC_mainNorth2_1_W" lane="mainNorth2_1" pos="33.19" freq="30.00" file="dets/CC_e1Detector_mainNorth2_1_7.xml"/>
+    <e1Detector id="CC_mainSouth2_0_E" lane="mainSouth2_0" pos="33.55" freq="30.00" file="dets/CC_e1Detector_mainSouth2_0_9.xml"/>
+    <e1Detector id="CC_mainSouth2_1_E" lane="mainSouth2_1" pos="33.84" freq="30.00" file="dets/CC_e1Detector_mainSouth2_1_8.xml"/>
+    <e1Detector id="EC_EE1_0_N" lane="EE1_0" pos="36.79" freq="30.00" file="dets/EC_e1Detector_EE1_0_11.xml"/>
+    <e1Detector id="EC_EW1_0_S" lane="EW1_0" pos="36.09" freq="30.00" file="dets/EC_e1Detector_EW1_0_12.xml"/>
+    <e1Detector id="EC_mainNorth3_0_W" lane="mainNorth3_0" pos="32.71" freq="30.00" file="dets/EC_e1Detector_mainNorth3_0_13.xml"/>
+    <e1Detector id="EC_mainNorth3_1_W" lane="mainNorth3_1" pos="32.71" freq="30.00" file="dets/EC_e1Detector_mainNorth3_1_14.xml"/>
+    <e1Detector id="EC_mainSouth1_0_E" lane="mainSouth1_0" pos="40.64" freq="30.00" file="dets/EC_e1Detector_mainSouth1_0_15.xml"/>
+    <e1Detector id="EC_mainSouth1_1_E" lane="mainSouth1_1" pos="40.93" freq="30.00" file="dets/EC_e1Detector_mainSouth1_1_16.xml"/>
+    <e1Detector id="WC_WE1_0_N" lane="WE1_0" pos="37.38" freq="30.00" file="dets/WC_e1Detector_WE1_0_3.xml"/>
+    <e1Detector id="WC_WW1_0_S" lane="WW1_0" pos="37.27" freq="30.00" file="dets/WC_e1Detector_WW1_0_2.xml"/>
+    <e1Detector id="WC_mainNorth1_0_W" lane="mainNorth1_0" pos="39.98" freq="30.00" file="dets/WC_e1Detector_mainNorth1_0_0.xml"/>
+    <e1Detector id="WC_mainNorth1_1_W" lane="mainNorth1_1" pos="39.69" freq="30.00" file="dets/WC_e1Detector_mainNorth1_1_1.xml"/>
+    <e1Detector id="WC_mainSouth3_0_E" lane="mainSouth3_0" pos="32.77" freq="30.00" file="dets/WC_e1Detector_mainSouth3_0_5.xml"/>
+    <e1Detector id="WC_mainSouth3_1_E" lane="mainSouth3_1" pos="32.77" freq="30.00" file="dets/WC_e1Detector_mainSouth3_1_4.xml"/>
+</additional>

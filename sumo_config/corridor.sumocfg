@@ -1,0 +1,9 @@
+<configuration>
+    <input>
+        <net-file value="corridor.net.xml"/>
+        <route-files value="corridor.rou.xml"/>
+        <additional-files value="corridor.add.xml"/>
+    </input>
+    <step-length value="1" />
+    <time-to-teleport value="1000" />
+</configuration>
